@@ -1,3 +1,4 @@
 import App from './App';
+import connect from './App.container';
 
-export default App;
+export default connect(App);

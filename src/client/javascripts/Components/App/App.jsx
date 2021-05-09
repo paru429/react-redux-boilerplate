@@ -1,10 +1,10 @@
 import React from "react";
 import './App.scss';
 
-const App = () => {
+const App = ({text}) => {
   return (
     <div className="app">
-      <div>Lets make this boilerplate ready!!</div>
+      <div>Lets make this boilerplate ready!! {text}</div>
     </div>
   );
 };
